@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bomberman</string>
+    <string name="btn_play">Jouer</string>
+    <string name="pauseActivate">Mode pause activé</string>
+    <string name="howResume">Veuillez passer en mode paysage pour reprendre le jeu !</string>
+    <string name="bluetoothCo">Vous devez être appairé avec l\'autre appareil ! Soit en cliquant dans la liste soit via le bouton ci-dessous. Appuyez sur le téléphone dans la liste pour créer un serveur bluetooth puis cliquez sur jouer sur les 2 appareils</string>
+    <string name="bluetoothBtn">S\'appairer avec un téléphone</string>
+    <string name="gameover">PARTIE TERMINEE</string>
+    <string name="confirmDialog">Attention vous allez lancer une partie à un joueur</string>
+    <string name="oui">Oui</string>
+    <string name="cancel">Non</string>
+    <string name="multiPlayer">Mode 2 joueurs</string>
+    <string name="btn_classement">Classement</string>
+    <string name="btn_param">Instructions</string>
+    <string name="instruc_move">Pour bouger, glissez votre droit dans la direction de votre choix !</string>
+    <string name="instruc_bombe">Pour poser une bombe appuyer 2 fois rapidement sur votre écran !</string>
+    <string name="instruc_but">Le but du jeu est d\'exploser des murs et de pulvériser votre ennemie !</string>
+</resources>

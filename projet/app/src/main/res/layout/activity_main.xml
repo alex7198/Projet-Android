@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.allabrosse1.bomberman.Activities.MainActivity">
+
+        <LinearLayout
+            android:orientation="vertical"
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+            android:id="@+id/buttonPlay"
+            android:layout_width="210dp"
+            android:layout_marginTop="80pt"
+            android:layout_height="53dp"
+            android:text="@string/btn_play"
+            android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/buttonTestBT"
+                android:layout_width="210dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="20pt"
+                android:text="@string/multiPlayer"
+                tools:layout_editor_absoluteX="87dp"
+                tools:layout_editor_absoluteY="318dp"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/buttonIns"
+                android:layout_centerVertical="true"
+                android:layout_width="210dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="20pt"
+                android:text="@string/btn_param"
+                tools:layout_editor_absoluteX="87dp"
+                tools:layout_editor_absoluteY="318dp"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+
+        <!---->
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

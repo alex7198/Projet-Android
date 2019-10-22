@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bluetoothCo" />
+
+        <Button
+            android:id="@+id/btnBTdialog"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bluetoothBtn" />
+
+        <ListView
+            android:id="@+id/listViewBT"
+            android:layout_width="match_parent"
+            android:layout_height="303dp" />
+
+        <Button
+            android:id="@+id/btnPlay"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_play" />
+    </LinearLayout>
+</ScrollView>
